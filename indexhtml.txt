@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Менің портфолио бетім">
+    <title>Менің Портфолиом</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Туралы</a></li>
+                <li><a href="#projects">Жобалар</a></li>
+                <li><a href="#contact">Байланыс</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Қош келдіңіздер!</h1>
+            <p>Менің портфолио бетімде менің жұмысым мен жобаларым туралы ақпарат таба аласыз.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Туралы</h2>
+            <p>Мен — веб-әзірлеуші және дизайнермін. Білімім мен тәжірибем арқасында сапалы веб-сайттар мен қосымшалар жасап шығарамын.</p>
+            <ul>
+                <li><strong>Аты:</strong> Асан Али</li>
+                <li><strong>Мамандығы:</strong> Веб-әзірлеуші</li>
+                <li><strong>Жұмыс тәжірибесі:</strong> 5 жыл</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Жобалар</h2>
+            <div class="project">
+                <h3>Жоба 1</h3>
+                <p>Бұл жоба веб-сайтты дамытуға қатысты. Мен фронтенд және бекенд кодтарын жаздым.</p>
+            </div>
+            <div class="project">
+                <h3>Жоба 2</h3>
+                <p>Бұл жоба үшін мен қолданушы интерфейсін жасап, веб-қосымшаға интеграция жасадым.</p>
+            </div>
+            <div class="project">
+                <h3>Жоба 3</h3>
+                <p>Мобильді қосымша жасаудың толық цикліне қатысты жұмыс істедім.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Байланыс</h2>
+            <p>Маған хат жазыңыз немесе мені әлеуметтік желілерден табыңыз:</p>
+            <ul>
+                <li><strong>Электрондық пошта:</strong> example@email.com</li>
+                <li><strong>Телефон:</strong> +7 777 123 45 67</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/example">LinkedIn профиль</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Асан Али. Барлық құқықтар қорғалған.</p>
+        </div>
+    </footer>
+</body>
+</html>
